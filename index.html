@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>ColorBack</title>
+        <link rel="stylesheet"  href="style.css">
+        <meta charset="utf-8">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+
+        <section class="bg_color" >
+          <p id="text">  Vermelho   </p>                                             
+        </section><!--bg_color-->
+
+        <section class="container">
+
+            <div class="content-select">
+                <select onchange="MudançaCor(this)" class="select" >
+                    <option class="op" value="red 0">Vermelho</option>
+                    <option class="op" value="yellow 1">Amarelo</option>
+                    <option class="op" value="gray 2">Cinza</option>
+                    <option class="op" value="green 3">Verde</option>
+                    <option class="op" value="brown 4">Marrom</option>
+                    <option class="op" value="pink 5">Rosa</option>       
+                </select>
+            </div><!--content-select-->
+
+        </section><!--container-->
+
+        <script src="func.js"></script>
+
+    </body>
+
+</html>

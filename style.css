@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg_color{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.select{
+    margin-top: 3.6rem;
+    position: relative;
+    height: 3.6rem;
+    width: 17rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    letter-spacing: .03rem;
+    border-right: 10px solid white;
+
+}
+
+#text{
+    letter-spacing: .4rem;
+    font-size: 15rem;
+    user-select: none;
+    font-family: 'Arvo', serif;
+}
